@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Geoffroy Lesage. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <TesseractOCR.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <G8TesseractDelegate>
 
 
 @end

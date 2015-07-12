@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F067E8E1B524C830013B442 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 1F067E8D1B524C830013B442 /* tessdata */; };
 		1FAC94371B523F0D005479D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC94361B523F0D005479D6 /* main.m */; };
 		1FAC943A1B523F0D005479D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC94391B523F0D005479D6 /* AppDelegate.m */; };
 		1FAC943D1B523F0D005479D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC943C1B523F0D005479D6 /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F067E8D1B524C830013B442 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../../../../../Documents/tesseract/tessdata; sourceTree = "<group>"; };
 		1FAC94311B523F0D005479D6 /* cardreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAC94351B523F0D005479D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAC94361B523F0D005479D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		1FAC94341B523F0D005479D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F067E8D1B524C830013B442 /* tessdata */,
 				1FAC94351B523F0D005479D6 /* Info.plist */,
 				1FAC94361B523F0D005479D6 /* main.m */,
 			);
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAC94401B523F0E005479D6 /* Main.storyboard in Resources */,
+				1F067E8E1B524C830013B442 /* tessdata in Resources */,
 				1FAC94451B523F0E005479D6 /* LaunchScreen.xib in Resources */,
 				1FAC94421B523F0E005479D6 /* Images.xcassets in Resources */,
 			);
