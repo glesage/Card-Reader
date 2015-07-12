@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController <G8TesseractDelegate>
 
+@property (nonatomic, strong) IBOutlet UITextView* mainTV;
+
 
 @end
 

@@ -21,6 +21,9 @@
     G8Tesseract *tess;
 }
 
+@synthesize mainTV;
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -49,15 +52,15 @@
     hud.mode = MBProgressHUDModeIndeterminate;
     hud.labelText = @"Reading";
     
-    [self performSelector:@selector(processCard) withObject:nil afterDelay:0];
-    [self displayCardData:[tess recognizedText]];
-    
-    [hud hide:YES];
+    [self performSelector:@selector(processAndDisplayCard) withObject:nil afterDelay:0];
 }
 
--(void)processCard
+-(void)processAndDisplayCard
 {
-    UIImage *card = [UIImage imageNamed:@"good"];
+    UIImage *card = [UIImage imageNamed:@"test-good"];
+//    UIImage *card = [UIImage imageNamed:@"test-bad"];
+//    UIImage *card = [UIImage imageNamed:@"good"]; // Although the image is good, the data is always bad
+//    UIImage *card = [UIImage imageNamed:@"bad"];
     tess.image = [card g8_grayScale];
     //tess.image = [card g8_blackAndWhite];
     
@@ -68,6 +71,10 @@
     //tess.maximumRecognitionTime = 1.0;
     
     [tess recognize];
+    
+    [self displayCardData:[tess recognizedText]];
+    
+    [hud hide:YES];
 }
 
 - (void)displayCardData:(NSString*)cardText
@@ -90,8 +97,10 @@
         }
         else [line appendFormat:@"%C", buffer[i]];
     }
-    
     NSLog(@"%@", lines);
+    
+    // Also just put all of it in the text field
+    [mainTV setText:cardText];
 }
 
 - (void)progressImageRecognitionForTesseract:(G8Tesseract *)tesseract {
