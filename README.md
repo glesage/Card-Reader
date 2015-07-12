@@ -1,2 +1,2 @@
 # Card-Reader
-iOS Card Reader to Mailchimp lists
+iOS Card Reader to possibly auto-store to mailchimp lists or drive doc
