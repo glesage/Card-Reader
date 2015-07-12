@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F067E8E1B524C830013B442 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 1F067E8D1B524C830013B442 /* tessdata */; };
 		1FAC94371B523F0D005479D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC94361B523F0D005479D6 /* main.m */; };
 		1FAC943A1B523F0D005479D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC94391B523F0D005479D6 /* AppDelegate.m */; };
 		1FAC943D1B523F0D005479D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC943C1B523F0D005479D6 /* ViewController.m */; };
@@ -15,6 +14,7 @@
 		1FAC94421B523F0E005479D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAC94411B523F0E005479D6 /* Images.xcassets */; };
 		1FAC94451B523F0E005479D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAC94431B523F0E005479D6 /* LaunchScreen.xib */; };
 		1FAC94511B523F0E005479D6 /* cardreaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC94501B523F0E005479D6 /* cardreaderTests.m */; };
+		1FE4EB541B52638A005CD155 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4EB531B52638A005CD155 /* tessdata */; };
 		B9F8E4B555F7A2719C8D4399 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 543BE698A1C45E3CCCEE9A89 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F067E8D1B524C830013B442 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../../../../../Documents/tesseract/tessdata; sourceTree = "<group>"; };
 		1FAC94311B523F0D005479D6 /* cardreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAC94351B523F0D005479D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAC94361B523F0D005479D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		1FAC944A1B523F0E005479D6 /* cardreaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardreaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAC944F1B523F0E005479D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAC94501B523F0E005479D6 /* cardreaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardreaderTests.m; sourceTree = "<group>"; };
+		1FE4EB531B52638A005CD155 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = SOURCE_ROOT; };
 		4AE520EA65E6994AEF48C437 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		543BE698A1C45E3CCCEE9A89 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		926D6699501D6EAF3F3C8475 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		1FAC94341B523F0D005479D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F067E8D1B524C830013B442 /* tessdata */,
+				1FE4EB531B52638A005CD155 /* tessdata */,
 				1FAC94351B523F0D005479D6 /* Info.plist */,
 				1FAC94361B523F0D005479D6 /* main.m */,
 			);
@@ -237,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAC94401B523F0E005479D6 /* Main.storyboard in Resources */,
-				1F067E8E1B524C830013B442 /* tessdata in Resources */,
+				1FE4EB541B52638A005CD155 /* tessdata in Resources */,
 				1FAC94451B523F0E005479D6 /* LaunchScreen.xib in Resources */,
 				1FAC94421B523F0E005479D6 /* Images.xcassets in Resources */,
 			);
