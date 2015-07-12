@@ -65,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F067E8C1B524C290013B442 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FAC943E1B523F0E005479D6 /* Main.storyboard */,
+				1FAC94411B523F0E005479D6 /* Images.xcassets */,
+				1FAC94431B523F0E005479D6 /* LaunchScreen.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		1FAC94281B523F0D005479D6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,13 +98,11 @@
 		1FAC94331B523F0D005479D6 /* cardreader */ = {
 			isa = PBXGroup;
 			children = (
+				1F067E8C1B524C290013B442 /* UI */,
 				1FAC94381B523F0D005479D6 /* AppDelegate.h */,
 				1FAC94391B523F0D005479D6 /* AppDelegate.m */,
 				1FAC943B1B523F0D005479D6 /* ViewController.h */,
 				1FAC943C1B523F0D005479D6 /* ViewController.m */,
-				1FAC943E1B523F0E005479D6 /* Main.storyboard */,
-				1FAC94411B523F0E005479D6 /* Images.xcassets */,
-				1FAC94431B523F0E005479D6 /* LaunchScreen.xib */,
 				1FAC94341B523F0D005479D6 /* Supporting Files */,
 			);
 			path = cardreader;
